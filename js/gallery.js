@@ -13,6 +13,36 @@ const galleryItems = [
 	{ src: "img/1936/1936_4.jpg", caption: "Мостовая тень" }
     ],
     link: "https://t.me/ten_tons_old_all"
+	},
+  {
+    title: "Мостовая тень 2",
+    size: "32,33,34",
+    subtitle: "Без категории",
+    mainImg: "img/1936/1936.jpg",
+    subImages: [
+        { src: "img/1936/1936.jpg", caption: "Мостовая тень 2" }
+    ],
+    link: "https://t.me/ten_tons_old_all"
+  },
+  {
+    title: "Мостовая тень 3",
+    size: "32,33,34",
+    subtitle: "Без категории",
+    mainImg: "img/1936/1936.jpg",
+    subImages: [
+        { src: "img/1936/1936.jpg", caption: "Мостовая тень 3" }
+    ],
+    link: "https://t.me/ten_tons_old_all"
+  },
+  {
+    title: "Мостовая тень 4",
+    size: "32,33,34",
+    subtitle: "Без категории",
+    mainImg: "img/1936/1936.jpg",
+    subImages: [
+        { src: "img/1936/1936.jpg", caption: "Мостовая тень 4" }
+    ],
+    link: "https://t.me/ten_tons_old_all"
   }
 ];
 
