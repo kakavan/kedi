@@ -10,14 +10,14 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="Грузоперевозки, эвакуаторы и спецтехника в городе Санкт-Петербург">
   <meta property="og:description" content="Группы Telegram для аренды грузовиков и спецтехники в городе Санкт-Петербург.">
-  <meta property="og:image" content="https://ten-tons.ru/img/tit.jpg">
+  <meta property="og:image" content="https://ten-tons.ru/img/1936/1936.jpg">
   <meta property="og:url" content="https://ten-tons.ru/">
   <meta property="og:site_name" content="ten-tons.ru">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@spbtruck">
   <meta name="twitter:title" content="Грузоперевозки, эвакуаторы и спецтехника в городе Санкт-Петербург">
   <meta name="twitter:description" content="Группы Telegram для аренды грузовиков и спецтехники в городе Санкт-Петербург.">
-  <meta name="twitter:image" content="https://ten-tons.ru/img/tit.jpg">
+  <meta name="twitter:image" content="https://ten-tons.ru/img/1936/1936.jpg">
 </head>
 <body>
 <div class="wrapper">

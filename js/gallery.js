@@ -13,39 +13,7 @@ const galleryItems = [
 	{ src: "img/1936/1936_4.jpg", caption: "Мостовая тень" }
     ],
     link: "https://t.me/ten_tons_old_all"
-  },
-  {
-    title: "Грузоперевозки до 3 тонн",
-    subtitle: "Газель Next",
-    mainImg: "img/gazel_next.webp",
-    subImages: [
-      { src: "img/gazel_next.webp", caption: "Газель Next — основное" },
-      { src: "img/gazel_next_2.webp", caption: "Газель Next — интерьер" }
-    ],
-    link: "https://t.me/+Ke-ISCKJEiFhZTAy"
-  },
-  {
-    title: "От 3 до 10 тонн",
-    subtitle: "Газон Next",
-    mainImg: "img/gazon_next.webp",
-    subImages: [
-      { src: "img/gazon_next.webp", caption: "Газон Next" },
-      { src: "img/gazon_next_2.webp", caption: "Газон Next — зад" }
-    ],
-    link: "https://t.me/+jNO7iBgKLUtkZTcy"
-  },
-  {
-    title: "От 10 тонн",
-    subtitle: "Фура",
-    mainImg: "img/fura.webp",
-    subImages: [
-      { src: "img/fura.webp", caption: "Фура — вид спереди" },
-      { src: "img/fura_2.webp", caption: "Фура — грузовой отсек" },
-      { src: "img/fura_3.webp", caption: "Фура — сзади" }
-    ],
-    link: "https://t.me/+LtJ2Xp0Snu81OWUy"
-  },
-  // Добавьте остальные карточки аналогично
+  }
 ];
 
 // Генерация HTML-карточек
