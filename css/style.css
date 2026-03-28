@@ -1,0 +1,469 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	font-display: swap;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+/*--------------------*/
+@font-face {
+	font-family: 'pfdmedium';
+	src: url('../fonts/pfdintextcondpro-medium/pfdintextcondpro-medium.eot');
+	src: local('☺'), url('../fonts/pfdintextcondpro-medium/pfdintextcondpro-medium.woff') format('woff'), url('../fonts/pfdintextcondpro-medium/pfdintextcondpro-medium.ttf') format('truetype'), url('../fonts/pfdintextcondpro-medium/pfdintextcondpro-medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'pfdlight';
+	src: url('../fonts/pfdintextcondpro-light/pfdintextcondpro-light.eot');
+	src: local('☺'), url('../fonts/pfdintextcondpro-light/pfdintextcondpro-light.woff') format('woff'), url('../fonts/pfdintextcondpro-light/pfdintextcondpro-light.ttf') format('truetype'), url('fonts/pfdintextcondpro-light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: pfdlight, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper{
+	min-height: 100%;
+	display: grid;
+	grid-template: minmax(100px, auto) 1fr minmax(70px, auto) / 1fr;
+	grid-template-areas: 
+	"header"
+	"main"
+	"footer";
+
+}
+
+.header{
+	grid-area: header;
+	padding: 15px;
+	background-color: #00688B;
+	display: grid;
+	align-items: center;
+	grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+}
+
+.header_logo{
+	display: none;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #fff;
+	grid-column: 2 / 3;
+}
+
+.header_menu{
+	grid-column: 3 / 4;
+
+}
+
+.header_list{
+	display: grid;
+	grid-auto-flow: dense;
+	justify-items: end;
+
+}
+
+.header_list li{
+
+	margin: 0px 0px 10px 0px;
+
+}
+
+.header_link{
+	font-family: 'pfdmedium';
+	color: #fff;
+	font-size: 18px;
+
+}
+
+.main{
+	
+	padding: 30px 15px;
+	
+}
+
+
+.sidebar{
+	
+	background-color: #7a956b;
+	padding: 30px 15px;
+	margin: 0px 0px 20px 0px;
+}
+
+
+.info_text{
+	font-family: 'pfdmedium';
+	color: #fff;
+	font-size: 20px;
+}
+
+.info_text ol{
+	font-family: 'pfdlight';
+	margin: 0px 0px 0px 20px ;
+
+
+}
+
+.info_text li{
+	margin-bottom: 10px;
+	line-height: 0.8;
+}
+
+.info_text ul li{
+	margin-bottom: 12Spx;
+	line-height: 1.0;
+}
+/**/
+.tgme_page_extra {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    padding: 6px 16px 0;
+    color: #7D7F81;
+}
+
+a.tgme_action_button, a.tgme_action_button_new {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    color: #FFF;
+    background: #5dc390;
+    border-radius: 22px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 13px 24px;
+    height: 42px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.tgme_page_action {
+    text-align: center;
+    margin-top: 24px;
+    line-height: 0;
+}
+/**/
+
+.products_items{
+	display: grid;
+	column-gap: 30px;
+	row-gap: 50px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	/*grid-auto-rows: 1fr;*/
+
+}
+
+.products_item {
+	display: grid;
+	grid-auto-flow: row;
+	grid-template: auto 1fr minmax(10px, auto) / 1fr;
+	  box-shadow:
+   0 1px 4px rgba(0, 0, 0, .3),
+   -23px 0 20px -23px rgba(0, 0, 0, .8),
+   23px 0 20px -23px rgba(0, 0, 0, .8),
+   0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+.products_image {
+	position: relative;
+	padding: 0px 0px 80% 0px;
+	margin: 0px 0px 20px 0px;
+
+}
+.products_image img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.products_name {
+	font-size: 20px;
+	color: #000;
+	line-height: 24px;
+	margin: 0px 0px 20px 10px;
+	display: block;
+}
+
+.products_name span{
+	font-family: 'pfdmedium';
+
+
+
+}
+
+.product_button {
+	display: none;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	line-height: 40px;
+	justify-self: start;
+	background-color: 	#32CD32;
+	padding: 0px 20px;
+	margin: 10px;
+}
+
+.footer {
+	font-family: 'pfdmedium';
+	background-color: #5F9EA0;
+	display: grid;
+	grid-area: footer;
+	padding: 15px;
+	align-items: center;
+	grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+
+}
+
+@media (min-width: 550px) {
+
+		.footer_copy {
+			grid-column: 2 / 3;
+		}
+
+		.footer_text {
+			text-align: right;
+			grid-column: 3 / 4;
+		}
+}
+
+
+@media (max-width: 550px){
+
+	.footer {
+		grid-template: 1fr 1fr / 1fr;
+		text-align: center;
+	}
+
+	.footer_copy {
+		order: 2;
+	}
+
+	.footer_text {
+		order: 1;
+	}
+
+}
+
+@media (min-width: 992px){
+
+	.main {
+		grid-area: main;
+		display: grid;
+		grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+	}
+
+	.sidebar{	
+		grid-column: 2 / 3;
+		margin: 0;
+	}
+
+		.content{
+		grid-column: 3 / 4;
+		padding: 0px 0px 0px 30px;
+	}
+}
+
+/* === Галерея === */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.lightbox-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 900px;
+}
+
+#lightbox-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.caption {
+  margin-top: 10px;
+  text-align: center;
+  color: #ccc;
+  font-size: 16px;
+}
+
+
+/* === Полноэкранная галерея (Lightbox) === */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  overflow: hidden;
+}
+
+.lightbox-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95vw;
+  max-width: 900px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* Сохраняет пропорции и не обрезает */
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Кнопки навигации */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: background 0.2s;
+  z-index: 1001;
+}
+
+.prev:hover, .next:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+/* Закрытие */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1002;
+  line-height: 1;
+}
+
+.close:hover {
+  color: #aaa;
+}
+
+/* Подпись под изображением */
+.caption {
+  margin-top: 12px;
+  color: #eee;
+  font-size: 16px;
+  text-align: center;
+  max-width: 90vw;
+  word-break: break-word;
+}
