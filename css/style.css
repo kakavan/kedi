@@ -147,40 +147,10 @@ body{
 }
 
 .info_text ul li{
-	margin-bottom: 12Spx;
+	margin-bottom: 12px;
 	line-height: 1.0;
 }
-/**/
-.tgme_page_extra {
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    padding: 6px 16px 0;
-    color: #7D7F81;
-}
 
-a.tgme_action_button, a.tgme_action_button_new {
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased;
-    color: #FFF;
-    background: #5dc390;
-    border-radius: 22px;
-    overflow: hidden;
-    display: inline-block;
-    padding: 13px 24px;
-    height: 42px;
-    text-transform: uppercase;
-    vertical-align: top;
-}
-
-.tgme_page_action {
-    text-align: center;
-    margin-top: 24px;
-    line-height: 0;
-}
-/**/
 
 .products_items{
 	display: grid;
@@ -306,45 +276,6 @@ a.tgme_action_button, a.tgme_action_button_new {
 }
 
 /* === Галерея === */
-.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  padding-top: 60px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.9);
-}
-
-.lightbox-content {
-  position: relative;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 900px;
-}
-
-#lightbox-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.3s;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
 
 .next {
   right: 0;
@@ -353,23 +284,6 @@ a.tgme_action_button, a.tgme_action_button_new {
 
 .prev:hover, .next:hover {
   background-color: rgba(255,255,255,0.2);
-}
-
-.close {
-  position: absolute;
-  top: 20px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.caption {
-  margin-top: 10px;
-  text-align: center;
-  color: #ccc;
-  font-size: 16px;
 }
 
 

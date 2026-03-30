@@ -39,7 +39,7 @@ const galleryItems = [
     mainImg: "img/1030/1031.jpg",
     subImages: [
 	{ src: "img/1030/1030.jpg", caption: "Хвойный ветер" },
-	{ src: "img/1030/1030.jpg", caption: "Хвойный ветер" }
+	{ src: "img/1030/1031.jpg", caption: "Хвойный ветер" }
     ],
     link: "https://t.me/ten_tons_old_all"
   }
