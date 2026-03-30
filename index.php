@@ -25,8 +25,8 @@
     <a href="" class="header_logo"></a>
     <nav class="header_menu">
       <ul class="header_list">
-        <li><a target="_blank" href="https://telegram.org/" class="header_link">Телеграмм</a></li>
-        <li><a target="_blank" href="https://t.me/spbtruck" class="header_link">Администрация</a></li>
+      <!--  <li><a target="_blank" href="https://telegram.org/" class="header_link">Телеграмм</a></li>
+        <li><a target="_blank" href="https://t.me/spbtruck" class="header_link">Администрация</a></li> -->
       </ul>
     </nav>
   </header>
