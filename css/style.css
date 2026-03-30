@@ -382,3 +382,31 @@ body{
   max-width: 90vw;
   word-break: break-word;
 }
+
+/* Кнопка звонка в правом нижнем углу */
+.call-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #28a745;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.call-button:hover {
+  background-color: #218838;
+  transform: scale(1.1);
+}
+
+.call-button svg {
+  fill: white;
+  width: 32px;
+  height: 32px;
+}
