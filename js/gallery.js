@@ -1,46 +1,45 @@
 // Данные галереи — каждая карточка содержит основное изображение и массив суб-изображений
 const galleryItems = [
   {
-    title: "Мостовая тень",
-    size: "32,33,34",
+    title: "Мостовая тень (1010)",
+    size: "42,43",
     subtitle: "Без категории",
-    mainImg: "img/1936/1936.jpg",
+    mainImg: "img/1010/1010.jpg",
     subImages: [
-	{ src: "img/1936/1936.jpg", caption: "Мостовая тень" },
-	{ src: "img/1936/1936_1.jpg", caption: "Мостовая тень" },
-	{ src: "img/1936/1936_2.jpg", caption: "Мостовая тень" },
-	{ src: "img/1936/1936_3.jpg", caption: "Мостовая тень" },
-	{ src: "img/1936/1936_4.jpg", caption: "Мостовая тень" }
+	{ src: "img/1010/1010.jpg", caption: "Мостовая тень" }
     ],
     link: "https://t.me/ten_tons_old_all"
   },
   {
-    title: "Мостовая тень 2",
-    size: "32,33,34",
+    title: "Песчаный берег (1040)",
+    size: "41,42,43",
     subtitle: "Без категории",
-    mainImg: "img/1936/1936.jpg",
+    mainImg: "img/1040/1041.jpg",
     subImages: [
-	{ src: "img/1936/1936.jpg", caption: "Мостовая тень 2" }
+	{ src: "img/1040/1040.jpg", caption: "Песчаный берег" },
+	{ src: "img/1040/1041.jpg", caption: "Песчаный берег" }
     ],
     link: "https://t.me/ten_tons_old_all"
   },
   {
-    title: "Мостовая тень 3",
-    size: "32,33,34",
+    title: "Северный камень (1020)",
+    size: "41,42",
     subtitle: "Без категории",
-    mainImg: "img/1936/1936.jpg",
+    mainImg: "img/1020/1021.jpg",
     subImages: [
-	{ src: "img/1936/1936.jpg", caption: "Мостовая тень 3" }
+	{ src: "img/1020/1020.jpg", caption: "Северный камень" },
+	{ src: "img/1020/1021.jpg", caption: "Северный камень" }
     ],
     link: "https://t.me/ten_tons_old_all"
   },
   {
-    title: "Мостовая тень 4",
-    size: "32,33,34",
+    title: "Хвойный ветер (1030)",
+    size: "41,43",
     subtitle: "Без категории",
-    mainImg: "img/1936/1936.jpg",
+    mainImg: "img/1030/1031.jpg",
     subImages: [
-	{ src: "img/1936/1936.jpg", caption: "Мостовая тень 4" }
+	{ src: "img/1030/1030.jpg", caption: "Хвойный ветер" },
+	{ src: "img/1030/1030.jpg", caption: "Хвойный ветер" }
     ],
     link: "https://t.me/ten_tons_old_all"
   }

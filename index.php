@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Грузоперевозки, эвакуаторы и спецтехника в городе Санкт-Петербург.</title>
+  <title>Кеды мужские | Натуральная кожа | Низкая цена | С-Пб.</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="fav/1.svg" type="image/svg+xml">
   <meta property="og:locale" content="ru_RU">
@@ -35,7 +35,8 @@
     <aside class="sidebar">
       <nav class="sidebar_menu">
         <div class="info_text">
-       <!--   <h1 class="content_title">Группы<a target="_blank" href="https://telegram.org/">Telegram</a> для аренды грузовиков и спецтехники в городе Санкт-Петербург.</h1> -->
+		  <h1 class="content_title">Кеды из натуральной кожи в Санкт-Петербурге.</h1>
+		  <br>
           <ol>
             <li>Приобретаю для себя обувь российского производства минимальным оптом.</li>
             <li>Материал — натуральная кожа, подошва — прошитая.</li>
