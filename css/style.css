@@ -75,7 +75,8 @@ body{
 	background-color: #00688B;
 	display: grid;
 	align-items: center;
-	grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+	justify-content: center;
+	grid-template: 1fr / 1fr minmax(auto, 800px) 1fr;
 }
 
 .header_logo{
@@ -84,32 +85,20 @@ body{
 	height: 70px;
 	border-radius: 50%;
 	background-color: #fff;
+	grid-column: 1 / 2;
+}
+
+.header_cityscape{
 	grid-column: 2 / 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.header_menu{
-	grid-column: 3 / 4;
-
-}
-
-.header_list{
-	display: grid;
-	grid-auto-flow: dense;
-	justify-items: end;
-
-}
-
-.header_list li{
-
-	margin: 0px 0px 10px 0px;
-
-}
-
-.header_link{
-	font-family: 'pfdmedium';
-	color: #fff;
-	font-size: 18px;
-
+.cityscape-image{
+	max-width: 100%;
+	height: auto;
+	max-height: 80px;
 }
 
 .main{

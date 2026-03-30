@@ -23,12 +23,9 @@
 <div class="wrapper">
   <header class="header">
     <a href="" class="header_logo"></a>
-    <nav class="header_menu">
-      <ul class="header_list">
-        <li><a target="_blank" href="https://telegram.org/" class="header_link">Телеграмм</a></li>
-        <li><a target="_blank" href="https://t.me/spbtruck" class="header_link">Администрация</a></li>
-      </ul>
-    </nav>
+    <div class="header_cityscape">
+      <img src="img/spb-skyline.svg" alt="Контур Санкт-Петербург" class="cityscape-image">
+    </div>
   </header>
 
   <main class="main">

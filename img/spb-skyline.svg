@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid meet">
+  <!-- Нева -->
+  <path d="M 0 120 Q 50 115, 100 120 T 200 115 T 300 120 T 400 115" 
+        fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Основные очертания города (упрощенный силуэт) -->
+  <g fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.8">
+    <!-- Левая часть (Васильевский остров) -->
+    <path d="M 30 140 L 45 130 L 60 135 L 70 125 L 85 130 L 90 145 L 80 155 L 60 150 L 40 155 Z"/>
+    
+    <!-- Центральная часть с шпилями и куполами -->
+    <path d="M 95 140 L 100 120 L 105 140"/>
+    <path d="M 110 145 L 115 110 L 120 145"/>
+    <path d="M 125 140 L 130 125 L 135 140"/>
+    <path d="M 140 145 L 145 115 L 150 145"/>
+    <path d="M 155 140 L 160 120 L 165 140"/>
+    
+    <!-- Петропавловская крепость -->
+    <circle cx="175" cy="130" r="15" fill="none"/>
+    <path d="M 175 115 L 175 95"/>
+    <path d="M 170 100 L 175 95 L 180 100"/>
+    
+    <!-- Правая часть -->
+    <path d="M 190 140 L 200 125 L 210 140 L 220 130 L 230 145 L 240 135 L 250 140 L 260 125 L 270 140 L 280 130 L 290 145 L 300 140 L 310 150 L 320 140 L 330 145 L 340 135 L 350 145 L 360 140 L 370 150"/>
+    
+    <!-- Мосты через Неву -->
+    <line x1="100" y1="120" x2="100" y2="145" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+    <line x1="150" y1="115" x2="150" y2="145" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+    <line x1="200" y1="115" x2="200" y2="145" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+    <line x1="250" y1="120" x2="250" y2="145" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+    <line x1="300" y1="120" x2="300" y2="145" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Дополнительные архитектурные элементы (купола Исаакия, Казанского) -->
+  <g fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7">
+    <ellipse cx="135" cy="125" rx="8" ry="5"/>
+    <ellipse cx="220" cy="120" rx="10" ry="6"/>
+    <path d="M 280 125 L 285 105 L 290 125"/>
+  </g>
+</svg>
