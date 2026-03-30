@@ -8,7 +8,7 @@ const galleryItems = [
     subImages: [
 	{ src: "img/1010/1010.jpg", caption: "Мостовая тень" }
     ],
-    link: "https://t.me/ten_tons_old_all"
+    link: ""
   },
   {
     title: "Песчаный берег (1040)",
@@ -19,7 +19,7 @@ const galleryItems = [
 	{ src: "img/1040/1040.jpg", caption: "Песчаный берег" },
 	{ src: "img/1040/1041.jpg", caption: "Песчаный берег" }
     ],
-    link: "https://t.me/ten_tons_old_all"
+    link: ""
   },
   {
     title: "Северный камень (1020)",
@@ -30,7 +30,7 @@ const galleryItems = [
 	{ src: "img/1020/1020.jpg", caption: "Северный камень" },
 	{ src: "img/1020/1021.jpg", caption: "Северный камень" }
     ],
-    link: "https://t.me/ten_tons_old_all"
+    link: ""
   },
   {
     title: "Хвойный ветер (1030)",
@@ -41,7 +41,7 @@ const galleryItems = [
 	{ src: "img/1030/1030.jpg", caption: "Хвойный ветер" },
 	{ src: "img/1030/1031.jpg", caption: "Хвойный ветер" }
     ],
-    link: "https://t.me/ten_tons_old_all"
+    link: ""
   }
 ];
 
